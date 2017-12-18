@@ -1,0 +1,13 @@
+.application a {
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+  color: #66bb6a;
+}
+
+.application a:hover {
+  color: #81c784;
+}
+
+.text-shadow-1 {
+  text-shadow: 2px 2px 4px #000000;
+}
