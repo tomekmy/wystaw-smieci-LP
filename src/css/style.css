@@ -15,3 +15,10 @@ ul {
 .text-shadow-1 {
   text-shadow: 2px 2px 4px #000000;
 }
+
+@media only screen and (max-width: 600px) {
+  .top-parallax img {
+    height: 600px;
+    transform: translate(-50%, 0px) !important;
+  }
+}
