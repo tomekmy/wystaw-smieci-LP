@@ -1,3 +1,7 @@
+ul {
+  list-style-type: none;
+}
+
 .application a {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
