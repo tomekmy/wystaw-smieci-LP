@@ -2,17 +2,9 @@
   <v-app light>
     <v-content>
       <section>
-        <v-parallax src="/static/img/app-green.webp" alt="Wystaw śmieci on green" height="600">
-          <v-layout
-            column
-            align-center
-            justify-center
-            class="white--text"
-          >
-          </v-layout>
-        </v-parallax>
+        <v-parallax class="top-parallax" src="/static/img/app-green.webp" alt="Wystaw śmieci on green" height="600"></v-parallax>
       </section>
-
+      
       <section>
         <v-layout
           column
@@ -78,10 +70,7 @@
       </section>
 
       <section>
-        <v-parallax src="/static/img/app-wood.webp" alt="Wystaw śmieci on wood" height="380">
-          <v-layout column align-center justify-center>
-          </v-layout>
-        </v-parallax>
+        <v-parallax src="/static/img/app-wood.webp" alt="Wystaw śmieci on wood" height="380"></v-parallax>
       </section>
 
       <section>
