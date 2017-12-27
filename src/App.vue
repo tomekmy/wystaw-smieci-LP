@@ -9,10 +9,6 @@
             justify-center
             class="white--text"
           >
-            <img src="/static/img/wystaw-smieci-logo.png" alt="Wystaw śmieci logo" height="200">
-            <h1 class="mb-2 display-1 text-xs-center text-shadow-1">Wystaw śmieci</h1>
-            <!-- <div class="subheading mb-3 text-xs-center text-shadow-1">Już nigdy o tym nie zapomnisz</div> -->
-            <a href="#" class="ma-3"><img src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
           </v-layout>
         </v-parallax>
       </section>
@@ -24,10 +20,10 @@
           class="my-5"
           align-center
         >
-          <v-flex xs12 sm4 class="my-3">
+          <v-flex xs12 sm4 class="mt-3">
             <div class="text-xs-center">
-              <h2 class="headline">Podstawowe funkcje aplikacji Wystaw śmieci</h2>
-              <!-- <span class="subheading">Podstawowe funkcje aplikacji</span> -->
+              <h2 class="headline">HARMONOGRAM ODBIORU ODPADÓW W ZIELONCE</h2>
+              <a href="#"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
             </div>
           </v-flex>
           <v-flex xs12>
@@ -36,15 +32,14 @@
                 <v-flex xs12 md4>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
-                      <v-icon x-large class="green--text">color_lens</v-icon>
+                      <v-icon x-large class="green--text">event</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Nowoczesny wygląd</div>
+                      <div class="headline text-xs-center">Przegląd terminów</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Zawsze aktualne terminy odbiorów odpadów w Zielonce. Dzięki naszej aplikacji możesz przeglądać daty
+                      odbioru odpadów dla wszystkich trzech stref. <br />Na pierwszym miejscu znajdziesz zawsze najbliższy termin.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -57,24 +52,22 @@
                       <div class="headline">Powiadomienia</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Już nigdy nie zapomnisz o wystawieniu śmieci! Wystarczy, że zaznaczysz opcję powiadomienia a 
+                      aplikacja przypomni Ci dzień wcześniej o konieczności wystawienia właściwych odpadów.
                     </v-card-text>
                   </v-card>
                 </v-flex>
                 <v-flex xs12 md4>
                   <v-card class="elevation-0 transparent">
                     <v-card-text class="text-xs-center">
-                      <v-icon x-large class="green--text">event</v-icon>
+                      <v-icon x-large class="green--text">color_lens</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Przegląd terminów</div>
+                      <div class="headline text-xs-center">Intuicyjna obsługa</div>
                     </v-card-title>
                     <v-card-text>
-                      Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                      Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                      Wystarczy jedno kliknięcie w aplikacji aby dowiedzieć się jaki jest najbliższy termin odbioru odpadów. 
+                      Tylko dwa kliknięcia aby ustawić powiadomienia dla właściwej strefy.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -87,8 +80,6 @@
       <section>
         <v-parallax src="/static/img/app-wood.webp" alt="Wystaw śmieci on wood" height="380">
           <v-layout column align-center justify-center>
-            <!-- <div class="headline yellow--text text--accent-3 mb-3 text-xs-center text-shadow-1">Nie daj się rano zaskoczyć i pobierz naszą aplikację już dziś!</div> -->
-            <a href="#" class="ma-2"><img src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
           </v-layout>
         </v-parallax>
       </section>
@@ -99,12 +90,14 @@
             <v-flex xs12 sm4>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">O autorach</div>
+                  <div class="headline">Autorzy</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare. 
-                  Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
-                  Nullam in aliquet odio. Aliquam eu est vitae tellus bibendum tincidunt. Suspendisse potenti. 
+                  <ul>
+                    <li><strong>Grzegorz Bielański</strong> – pomysł i wykonanie aplikacji na system Android.</li>
+                    <li><strong>Tomasz Milczarek</strong> – aplikacja na system Android.</li>
+                    <li><strong>Tomasz Myśliwiec</strong> – strona internetowa projektu.</li>
+                  </ul>
                 </v-card-text>
               </v-card>
             </v-flex>
@@ -114,28 +107,11 @@
                   <div class="headline">Kontakt</div>
                 </v-card-title>
                 <v-card-text>
-                  Cras facilisis mi vitae nunc lobortis pharetra. Nulla volutpat tincidunt ornare.
+                  W razie jakichkolwiek uwag prosimy o wysyłanie wiadomości na nasz profil na Facebook'u.
                 </v-card-text>
                 <v-list class="transparent">
                   <v-list-tile>
                     <v-list-tile-action>
-                      <v-icon class="green--text">phone</v-icon>
-                    </v-list-tile-action>
-                    <v-list-tile-content>
-                      <v-list-tile-title>777-867-5309</v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                  <v-list-tile>
-                    <v-list-tile-action>
-                      <v-icon class="green--text">email</v-icon>
-                    </v-list-tile-action>
-                    <v-list-tile-content>
-                      <v-list-tile-title><a href="kontakt@wystaw-smieci.pl">kontakt@wystaw-smieci.pl</a></v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                  <v-list-tile>
-                    <v-list-tile-action>
-                      <!-- <v-icon class="blue--text text--lighten-2">message</v-icon> -->
                       <img src="/static/img/facebook-icon.png" height="24" alt="Fan page">
                     </v-list-tile-action>
                     <v-list-tile-content>
