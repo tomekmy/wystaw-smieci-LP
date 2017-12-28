@@ -7,12 +7,11 @@
       
       <section>
         <v-layout
-          column
           wrap
           class="my-5"
           align-center
         >
-          <v-flex xs12 sm4 class="mt-3">
+          <v-flex xs12 class="mt-3">
             <div class="text-xs-center">
               <h2 class="headline">HARMONOGRAM ODBIORU ODPADÓW W ZIELONCE</h2>
               <a href="#"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
