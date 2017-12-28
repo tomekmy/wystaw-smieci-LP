@@ -2,6 +2,25 @@ ul {
   list-style-type: none;
 }
 
+li {
+  margin: 0 0 0.5em 0;
+}
+
+.list-img {
+  position: relative;
+  vertical-align: middle;
+  top: -1px;
+}
+
+.black-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.black-link:hover {
+  color: #5a5a5a !important;
+}
+
 .application a {
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;

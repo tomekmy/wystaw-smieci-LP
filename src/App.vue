@@ -83,9 +83,33 @@
                 </v-card-title>
                 <v-card-text>
                   <ul>
-                    <li><strong>Grzegorz Bielański</strong> – pomysł i wykonanie aplikacji na system Android.</li>
-                    <li><strong>Tomasz Milczarek</strong> – aplikacja na system Android.</li>
-                    <li><strong>Tomasz Myśliwiec</strong> – strona internetowa projektu.</li>
+                    <li>
+                      <strong>Grzegorz Bielański</strong> – pomysł i wykonanie aplikacji na system Android.
+                      <a class="mx-1" href="https://www.linkedin.com/in/gbielanski/">
+                        <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
+                      </a> 
+                      <a href="https://github.com/gbielanski">
+                        <img class="list-img" src="/static/img/github-icon-black.png" height="16" alt="GitHub Logo">
+                      </a>
+                      </li>
+                    <li>
+                      <strong>Tomasz Milczarek</strong> – aplikacja na system Android. 
+                      <a class="mx-1" href="https://www.linkedin.com/in/milto/">
+                        <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
+                      </a> 
+                      <a href="https://github.com/miltomasz">
+                        <img class="list-img" src="/static/img/github-icon-black.png" height="16" alt="GitHub Logo">
+                      </a>
+                    </li>
+                    <li>
+                      <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a> – strona internetowa projektu. 
+                      <a class="mx-1" href="https://www.linkedin.com/in/tomekmy/">
+                        <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
+                      </a>
+                      <a href="https://github.com/tomekmy">
+                        <img class="list-img" src="/static/img/github-icon-black.png" height="16" alt="GitHub Logo">
+                      </a>
+                    </li>
                   </ul>
                 </v-card-text>
               </v-card>
