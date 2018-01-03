@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wystaw śmieci</title>
-    <meta name="description" content="Dzięki aplikacji Wystaw śmieci już nigdy o tym nie zapomnisz">
+    <meta name="description" content="Dzięki naszej aplikacji już nigdy nie zapomnisz o wystawieniu śmieci">
     <meta property="og:url" content="https://www.wystaw-smieci.pl">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Wystaw śmieci">
-    <meta property="og:description" content="Dzięki aplikacji Wystaw śmieci już nigdy o tym nie zapomnisz">
+    <meta property="og:description" content="Dzięki naszej aplikacji już nigdy nie zapomnisz o wystawieniu śmieci">
     <meta property="og:image" content="https://www.wystaw-smieci.pl/static/img/app-green.jpg">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon-16x16.png">
@@ -31,6 +31,9 @@
           if (file.match(/\.(js|css)$/)) { %>
     <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-5968901-21"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-5968901-21');</script>
   </head>
   <body>
     <noscript>
