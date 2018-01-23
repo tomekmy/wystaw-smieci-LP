@@ -14,7 +14,7 @@
           <v-flex xs12 class="mt-3">
             <div class="text-xs-center">
               <h1 class="headline">HARMONOGRAM ODBIORU ODPADÓW W ZIELONCE</h1>
-              <a href="#"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
+              <a href="https://play.google.com/store/apps/details?id=pl.example.android.garbageapp"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
             </div>
           </v-flex>
           <v-flex xs12>
