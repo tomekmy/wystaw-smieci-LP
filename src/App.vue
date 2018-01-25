@@ -138,7 +138,7 @@
       </section>
 
       <v-footer class="green">
-        <span class="white--text">&copy; 2017</span>
+        <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a>&nbsp;<span class="white--text">&copy; 2017</span>
       </v-footer>
     </v-content>
   </v-app>
