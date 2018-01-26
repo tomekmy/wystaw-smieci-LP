@@ -2,7 +2,7 @@
   <v-app light>
     <v-content>
       <section>
-        <v-parallax class="top-parallax" src="/static/img/app-green.webp" alt="Wystaw śmieci on green" height="600"></v-parallax>
+        <v-parallax class="top-parallax" src="/static/img/app-green.webp" alt="Put out the garbage on green" height="600"></v-parallax>
       </section>
       
       <section>
@@ -13,8 +13,8 @@
         >
           <v-flex xs12 class="mt-3">
             <div class="text-xs-center">
-              <h1 class="headline">HARMONOGRAM ODBIORU ODPADÓW W ZIELONCE</h1>
-              <a href="https://play.google.com/store/apps/details?id=pl.example.android.garbageapp"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
+              <h1 class="headline">WASTE RECEPTION SCHEDULE IN ZIELONKA CITY</h1>
+              <a href="https://play.google.com/store/apps/details?id=pl.example.android.garbageapp"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Get App" height="65"></a>
             </div>
           </v-flex>
           <v-flex xs12>
@@ -26,11 +26,11 @@
                       <v-icon x-large class="green--text">event</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Przegląd terminów</div>
+                      <div class="headline text-xs-center">Review of deadlines</div>
                     </v-card-title>
                     <v-card-text>
-                      Zawsze aktualne terminy odbiorów odpadów w Zielonce. Dzięki naszej aplikacji możesz przeglądać daty
-                      odbioru odpadów dla wszystkich trzech stref. <br />Na pierwszym miejscu znajdziesz zawsze najbliższy termin.
+                      Always valid dates of waste collection in Zielonka. With our application you can view dates of collection for all three zones.<br>
+                      In the first place you will always find the nearest date.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -40,11 +40,11 @@
                       <v-icon x-large class="green--text">alarm_on</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline">Powiadomienia</div>
+                      <div class="headline">Notifications</div>
                     </v-card-title>
                     <v-card-text>
-                      Już nigdy nie zapomnisz o wystawieniu śmieci! Wystarczy, że zaznaczysz opcję powiadomienia a 
-                      aplikacja przypomni Ci dzień wcześniej o konieczności wystawienia właściwych odpadów.
+                      You will never forget about the putting out the garbage! Just select the notification option and the
+                      application will remind you the day before about the need to put out the right waste.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -54,11 +54,11 @@
                       <v-icon x-large class="green--text">color_lens</v-icon>
                     </v-card-text>
                     <v-card-title primary-title class="layout justify-center">
-                      <div class="headline text-xs-center">Intuicyjna obsługa</div>
+                      <div class="headline text-xs-center">User friendly</div>
                     </v-card-title>
                     <v-card-text>
-                      Wystarczy jedno kliknięcie w aplikacji aby dowiedzieć się jaki jest najbliższy termin odbioru odpadów. 
-                      Tylko dwa kliknięcia aby ustawić powiadomienia dla właściwej strefy.
+                      All it takes is one click in the application to find out what is the next date of waste collection. 
+                      Only two clicks to set notifications for the correct zone.
                     </v-card-text>
                   </v-card>
                 </v-flex>
@@ -78,12 +78,12 @@
             <v-flex xs12 sm4>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Autorzy</div>
+                  <div class="headline">Authors</div>
                 </v-card-title>
                 <v-card-text>
                   <ul>
                     <li>
-                      <strong>Grzegorz Bielański</strong> – pomysł i wykonanie aplikacji na system Android.
+                      <strong>Grzegorz Bielański</strong> – idea and application development for Android system.
                       <a class="mx-1" href="https://www.linkedin.com/in/gbielanski/">
                         <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
                       </a> 
@@ -92,7 +92,7 @@
                       </a>
                       </li>
                     <li>
-                      <strong>Tomasz Milczarek</strong> – aplikacja na system Android. 
+                      <strong>Tomasz Milczarek</strong> – Android application development. 
                       <a class="mx-1" href="https://www.linkedin.com/in/milto/">
                         <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
                       </a> 
@@ -101,7 +101,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a> – strona internetowa projektu. 
+                      <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a> – project web page. 
                       <a class="mx-1" href="https://www.linkedin.com/in/tomekmy/">
                         <img class="list-img" src="/static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
                       </a>
@@ -116,10 +116,10 @@
             <v-flex xs12 sm4 offset-sm1>
               <v-card class="elevation-0 transparent">
                 <v-card-title primary-title class="layout justify-center">
-                  <div class="headline">Kontakt</div>
+                  <div class="headline">Contact</div>
                 </v-card-title>
                 <v-card-text>
-                  W razie jakichkolwiek uwag prosimy o wysyłanie wiadomości na nasz profil na Facebook'u.
+                  In case of any comments, please send a message to our Facebook profile.
                 </v-card-text>
                 <v-list class="transparent">
                   <v-list-tile>
