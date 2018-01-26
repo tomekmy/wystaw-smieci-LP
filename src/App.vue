@@ -101,7 +101,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a> – project web page. 
+                      <a class="black--text black-link" href="https://mysliwiec.pro/">Tomasz Myśliwiec</a> – this page. 
                       <a class="mx-1" href="https://www.linkedin.com/in/tomekmy/">
                         <img class="list-img" src="static/img/linkedin-icon-blue.png" height="16" alt="LinkedIn Logo">
                       </a>
