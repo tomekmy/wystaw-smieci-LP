@@ -11,10 +11,13 @@
           class="my-5"
           align-center
         >
-          <v-flex xs12 class="mt-3">
+          <v-flex xs12 class="my-3">
             <div class="text-xs-center">
               <h1 class="headline">HARMONOGRAM ODBIORU ODPADÓW W ZIELONCE</h1>
-              <a href="https://play.google.com/store/apps/details?id=pl.example.android.garbageapp"><img class="mt-3" src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
+              <div class="mt-4 mb-3 subheading font-weight-medium text-xs-center">Wersja na system Android</div>
+              <a href="https://play.google.com/store/apps/details?id=pl.example.android.garbageapp"><img src="/static/img/google-play-badge.png" alt="Pobierz aplikację" height="65"></a>
+              <div class="mt-4 mb-3 subheading font-weight-medium text-xs-center">Przeglądarkowa wersja aplikacji</div>
+              <a href="https://zielonka.wystaw-smieci.pl/"><img src="/static/img/pwa_logo_small.png" alt="PWA Logo" height="60px"></a>
             </div>
           </v-flex>
           <v-flex xs12>
